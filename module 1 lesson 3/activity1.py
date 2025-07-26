@@ -10,3 +10,9 @@ print (a)
 print (b)
 print (c)
 print (d)
+
+
+a = 150
+print ("this is the original data type of a" , type(a))
+a = str(a)
+print ("this is the changed data type of a" , type(a))
