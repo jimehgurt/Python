@@ -1,0 +1,8 @@
+ammount = int(input("what is your ammount"))
+ruppee_100 = ammount//100
+ruppee_50 = (ammount%100)//50
+ruppee_10 = ((ammount%100)%50)//10
+print ("your notes are")
+print (ruppee_10)
+print (ruppee_100)
+print (ruppee_50)
